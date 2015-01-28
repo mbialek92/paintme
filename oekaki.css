@@ -1,0 +1,90 @@
+html, body {
+	width: 100%;
+	height: 100%;
+    font-family: "calibri";
+    font-size: 14px;
+}
+
+#content {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+#oekaki {
+	border:3px solid #8C7486;
+	height: 400px;
+    width: 500px;
+    left: 50px;
+	position: relative;
+}
+
+#tmp_canvas {
+	position: absolute;
+	left: 0px; right: 0;
+	bottom: 0; top: 0;
+	cursor: pointer;
+}
+
+.rose, .bloom, .berry, .red,
+.creamsicle, .sherbet, .deeporange, .orange,
+.sunshine, .banana, .lemon, .yellow,
+.jade, .green, .forest, .ivy,
+.sky, .softblue, .seaside, .dunkelblau,
+.lilac, .tart, .violet, .iris,
+.white, .latte, .vanilla, .peach,
+.mocha, .coco, .choco, .brown,
+.greywind, .grey, .deepgrey, .black{
+
+width:20px;
+height:20px; 
+}	
+
+.rose { background-color: #FFD9D4; }
+.bloom { background-color: #EBB9BD; }
+.berry { background-color: #D18489; }
+.red { background-color:#A84D56; }
+
+.creamsicle { background-color: #FFEAD4; }
+.sherbet { background-color: #FFCDB0; }
+.deeporange { background-color: #FFAA7D; }
+.orange { background-color:#FB9765;  }
+
+.sunshine { background-color: #FBFCD0; }
+.banana { background-color: #F6EFAD; }
+.lemon { background-color: #FFDE70; }
+.yellow { background-color: #D2C65A; }
+
+.jade { background-color: #C6D99F; }
+.green { background-color: #8FA97F; }
+.forest { background-color:#789048;  }
+.ivy { background-color: #607848; }
+
+.sky { background-color: #DBF0F9; }
+.softblue { background-color: #A1BEE6; }
+.seaside { background-color: #7F94B0; }
+.dunkelblau { background-color: #5E80A6; }
+
+.lilac { background-color: #DFD0E8; }
+.tart { background-color: #C0ADDB; }
+.violet { background-color:#A89ABD; }
+.iris { background-color:#8C7486; } 
+
+.white { background-color: #FAFAFA; }
+.latte { background-color: #FEF9F0; }
+.vanilla { background-color: #F2EEDB; }
+.peach { background-color: #F4DEC2; }
+
+.mocha { background-color: #EFDBCD; }
+.coco { background-color: #BD9F7F; }
+.choco { background-color: #A37E58; }
+.brown { background-color: #755C3B; }
+
+.greywind { background-color: #D8D8D8; }
+.grey { background-color: #AAAAAA; }
+.deepgrey { background-color: #7F7F7F; }
+.black { background-color:#000000; }
+
+
